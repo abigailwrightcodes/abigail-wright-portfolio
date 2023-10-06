@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  
+
+/* Navigation bar */
+  #navigation-bar {
+    background-color: grey;
+    width: auto ;
+    height:60px ;
+  }
+
+
+  #header-container {
+    height: 460px;
+    width: auto;
+    background-color: aquamarine;
+   
+
+
+  }
+/* main container */
+/* #main-content-container {
+    background-color: pink;
+    width: auto;
+    height: 1250px;
+   
+
+  }  */
+
+
+
+  /* about me section */
+  .about-me-txt-container {
+  
+    background-color: rgb(255, 10, 202);
+    width: auto;
+    height: 500px;
+   
+ 
+   
+
+  }
+
+  #about-me-aside {
+  float: left;
+  background-color: purple;
+  width: 160px;
+  height: 500px;
+
+ 
+  }
+
+  /* work section */
+  .work-container {
+    background-color: rgb(81, 2, 2);
+    width: auto;
+    height: 700px;
+   
+
+  }
+
+  #work-aside {
+    float: left;
+    background-color: purple;
+    width: 160px;
+    height: 700px;
+    
+  }
+
+
+
+
+
+
+
+
+  /* footer section */
+  #footer-contact-container {
+    background-color: rgb(235, 6, 6);
+    width: auto;
+    height: 180px;
+  }
+  #contact-info-container {
+   
+    background-color: blue;
+    width: auto;
+    height: 180px;
+    
+
+  }
+  #contact-aside {
+    background-color: purple;
+    width: 160px;
+    height: 180px;
+    float: left;
+    
+  }
+
