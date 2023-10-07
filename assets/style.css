@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+
+/* Navigation */
+.my-logo {
+  margin-left: 20px;
+  background-color: pink;
+  padding-left:20px;
+  padding-right:20px;
+}
+.navigation {
+  display:flex;
+  justify-content: space-between;
+  
+}
+.navigation-items ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+ 
+}
+
+.navigation-items li {
+  background-color: pink;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  margin:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  
+
+}
+
+/* hero img */
+.hero {
+ display: flex;
+flex-direction: row;
+width: auto;
+background-color: black;
+height: 500px;
+}
+
+/* about me section */
+
+.about-me {
+display: flex;
+flex-direction: row;
+width: auto;
+background-color: black;
+
+}
+
+.aside {
+  
+  margin: 20px;
+  background-color: pink;
+  width: 10%;
+  height: 300px;
+  text-align: center;
+
+  
+}
+
+.section {
+  
+  
+  background-color: pink;
+  margin: 20px;
+  width: 90%;
+  align-content: center;
+  text-align:center;
+ 
+}
+
+
+/* work-section */
+
+.work-container {
+
+display: flex;
+flex-direction: row;
+width: auto;
+background-color: white;
+
+}
+#larger-section {
+  height: 900px;
+}
+#larger-aside {
+  height: 900px;
+}
+
+/* work-grid */
+  #work-grid {
+
+    display: grid;
+    grid-template-rows: 350px 250px 250px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "project-01 project-01"
+    "project-02 project-03"
+    "project-04 project-05";
+    margin: 30px;
+    
+  }
+  #project-01 {
+    
+    border: 5px solid black;
+    grid-area: project-01;
+    border-radius: 10px;
+    margin: 5px
+
+
+  }
+  #project-02 {
+    border: 5px solid black;
+    grid-area: project-02;
+    border-radius: 10px;
+     margin: 5px;
+    
+    
+  }
+  #project-03 {
+    border: 5px solid black;
+    grid-area: project-03;
+    border-radius: 10px;
+     margin: 5px;
+    
+  }
+  #project-04 {
+    border: 5px solid black;
+    grid-area: project-04;
+    border-radius: 10px;
+    margin: 5px;
+    
+  }
+  #project-05 {
+    border: 5px solid black;
+    grid-area: project-05;
+    border-radius: 10px;
+     margin: 5px;
+    
+  }
+/* footer */
+
+.contact {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
