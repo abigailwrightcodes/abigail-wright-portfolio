@@ -37,6 +37,10 @@
   
 
 }
+.navigation-items a {
+  text-decoration: none;
+  color: white;
+}
 
 /* hero img */
 .hero {
@@ -53,7 +57,8 @@ height: 500px;
 display: flex;
 flex-direction: row;
 width: auto;
-background-color: black;
+margin-top: 20px;
+/* background-color: black; */
 
 }
 
@@ -93,7 +98,7 @@ background-color: white;
 #larger-section {
   height: 900px;
 }
-#larger-aside {
+.larger-aside {
   height: 900px;
 }
 
@@ -150,7 +155,19 @@ background-color: white;
 /* footer */
 
 .contact {
-  background-color: black;
+  height: 150px;
+  /* background-color: black; */
   display: flex;
   flex-direction: row;
+}
+
+.contact-aside {
+  
+  margin: 20px;
+  background-color: pink;
+  width: 10%;
+  height: 110px;
+  text-align: center;
+
+  
 }
