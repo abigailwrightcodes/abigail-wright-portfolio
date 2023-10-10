@@ -11,6 +11,7 @@ WIREFRAMING
 FIGMA
 
 ## Credits
-Figma Wireframe
+Figma Wireframe:
 https://www.figma.com/file/swyX1BGyWrxn7L3XI1jpaF/Portfolio-Wireframe?type=design&node-id=0%3A1&mode=design&t=4CGrdZeKrPNtoEnk-1
+<br>
 Module 02 challenge : Used furniture example to help with grid set up.
